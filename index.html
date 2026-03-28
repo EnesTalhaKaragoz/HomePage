@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyAiCoach - Your Personal AI Fitness Assistant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #e63946;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #e63946;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 2rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #e63946;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #e63946;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #cccccc;
+        }
+
+        .cta-button {
+            background-color: #e63946;
+            color: white;
+            padding: 0.8rem 2.5rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin: 0.5rem;
+        }
+
+        .cta-button:hover {
+            background-color: #d62828;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            padding: 3rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            background-color: #1a1a1a;
+            padding: 2rem;
+            border-left: 4px solid #e63946;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-card h3 {
+            color: #e63946;
+            margin-bottom: 0.8rem;
+        }
+
+        .feature-card p {
+            color: #cccccc;
+        }
+
+        .auth-section {
+            text-align: center;
+            padding: 2rem;
+            background-color: #1a1a1a;
+            margin: 2rem;
+        }
+
+        .auth-button {
+            display: inline-block;
+            background-color: #2a2a2a;
+            color: white;
+            padding: 0.8rem 2rem;
+            margin: 0.5rem;
+            border: 2px solid #e63946;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .auth-button:hover {
+            background-color: #e63946;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 2rem;
+            border-top: 2px solid #e63946;
+            margin-top: 3rem;
+        }
+
+        .footer-links a {
+            color: #e63946;
+            text-decoration: none;
+            margin: 0 1rem;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: #ffffff;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            nav a {
+                margin-left: 1rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MyAiCoach</div>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Your Personal AI Fitness Coach</h1>
+        <p>Transform your fitness journey with AI-powered workout analysis, nutrition tracking, and personalized coaching at your fingertips</p>
+
+    </section>
+
+    <section class="features" id="features">
+        <div class="feature-card">
+            <h3>🎥 Exercise Analysis</h3>
+            <p>Real-time camera analysis ensures you perform exercises with perfect form. Get instant feedback and corrections from our AI coach.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🍎 Nutrition Tracking</h3>
+            <p>Scan your food and drinks to instantly get calorie counts, protein values, and detailed nutritional information powered by AI.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>❤️ Health Integration</h3>
+            <p>Seamlessly connect with Apple HealthKit to track daily calories burned, steps taken, and overall health metrics in one place.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🤖 AI Assistant</h3>
+            <p>Ask any fitness question and get instant, personalized answers from our intelligent AI coach available 24/7.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>📊 Leaderboard</h3>
+            <p>Earn points through cardio workouts and compete with other users. Climb the leaderboard and stay motivated in a friendly competition.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>👤 Personal Profile</h3>
+            <p>Set your fitness goals, track your progress, and customize your experience with your profile photo and personal details.</p>
+        </div>
+    </section>
+
+    <section class="auth-section" id="about">
+
+
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MyAiCoach. All rights reserved.</p>
+        <div class="footer-links" style="margin-top: 1rem;">
+            <a href="https://myaicoachapp.netlify.app/" target="_blank">Terms of Service</a>
+            <a href="https://myaicoachappprivacy.netlify.app/" target="_blank">Privacy Policy</a>
+            <a href="mailto:enestalhakaragoz@gmail.com">Contact Us</a>
+        </div>
+    </footer>
+</body>
+</html>
