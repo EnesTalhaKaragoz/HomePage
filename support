@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My AI Coach Support</title>
+  <title>My AI Coach - Fitness Support</title>
   <style>
     :root {
       --bg: #0b0b0f;
@@ -151,7 +151,7 @@
   <main class="container">
     <section class="card">
       <div class="badge">Support</div>
-      <h1>My AI Coach Support</h1>
+      <h1>My AI Coach - Fitness Support</h1>
       <p>
         Need help with the app, your account, or any feature? We’re here to help.
       </p>
@@ -170,7 +170,7 @@
       <a class="cta" href="mailto:myaicoachfitness@gmail.com">Contact Support</a>
 
       <div class="footer">
-        © 2026 My AI Coach. All rights reserved.
+        © 2026 My AI Coach - Fitness. All rights reserved.
       </div>
     </section>
   </main>
